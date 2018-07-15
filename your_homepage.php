@@ -73,6 +73,17 @@ if(mysqli_connect_errno())
                 <button type="submit" name='tit_submit'> Proceed </button>
                 </form>
             </div> 
+            <div id='instr'>
+                <span id='inst_head'>How to use this website?</span>
+                <ul>
+                <li> Create a project for your event, product etc.</li><br>
+                <li> Design the feedback form for the project using the given options </li><br>
+                <li> Share your project's unique number code with your audience or customers </li><br>
+                <li> They can login, enter the code and give their feedback for your project anonymously </li><br>
+                <li> You can then view the responses and analysis for the received feedback </li><br>
+                </ul>
+            
+            </div>
             
      
      

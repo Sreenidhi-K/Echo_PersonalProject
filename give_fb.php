@@ -61,8 +61,9 @@ if(mysqli_connect_errno())
                     $cd=$_SESSION['fbcode'];
                     $some_res=mysqli_query($conn,"SELECT * FROM projectdata WHERE code='$cd';");
                     $avail=mysqli_fetch_assoc($some_res);
+                    $admin_name=$avail['admin'];
                     
-                if(mysqli_num_rows($some_res)==0)
+                if(mysqli_num_rows($some_res)==0 || $admin_name==$username)
                 {
                 echo ( "<h4> * Your feedback form comes here *</h4>");
                 }

@@ -112,6 +112,24 @@ body
     padding: 20px;
     line-height: 20px;
 }
+#instr
+{
+    position: absolute;
+    top:400px;
+    left:0px;
+    color: plum;
+    background-color: black;
+    padding: 20px;
+    line-height: 20px;
+    width:400px;
+    height:auto;
+    overflow: auto;
+}
+#inst_head
+{
+    font-size:40px;
+    color: darkmagenta;
+}
 #code_enter
 {
      position: absolute;
